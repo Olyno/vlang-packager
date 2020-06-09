@@ -6,5 +6,4 @@ branding:
   color: blue
 runs:
   using: 'node12'
-  pre: 'npm i'
   main: 'src/index.js'

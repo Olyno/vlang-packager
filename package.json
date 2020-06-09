@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Olyno/vlang-packager#readme",
   "scripts": {
-    "preinstall": "node scripts/preinstall.js"
+    "preinstall": "npm i && node scripts/preinstall.js"
   },
   "bin": {
     "v": "bin/v.exe"
