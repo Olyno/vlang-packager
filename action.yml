@@ -1,0 +1,10 @@
+name: vlang-packager
+description: Run V programming language
+author: Olyno
+branding:
+  icon: chevron-down
+  color: blue
+runs:
+  using: 'node12'
+  pre: 'npm i'
+  main: 'src/index.js'

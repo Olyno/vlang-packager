@@ -1,0 +1,39 @@
+{
+  "name": "vlang-packager",
+  "version": "0.1.0",
+  "description": "Vlang as dependency",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olyno/vlang-packager.git"
+  },
+  "keywords": [
+    "vlang",
+    "v"
+  ],
+  "author": "Olyno",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Olyno/vlang-packager/issues"
+  },
+  "homepage": "https://github.com/Olyno/vlang-packager#readme",
+  "scripts": {
+    "preinstall": "node scripts/preinstall.js"
+  },
+  "bin": {
+    "v": "bin/v.exe"
+  },
+  "files": [
+    "LICENSE",
+    "REAMDE.md",
+    "scripts"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "decompress": "^4.2.1",
+    "ncp": "^2.0.0",
+    "node-unzip-2": "^0.2.8",
+    "ora": "^4.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
