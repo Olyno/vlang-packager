@@ -29,7 +29,7 @@
     "scripts"
   ],
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "decompress": "^4.2.1",
     "ncp": "^2.0.0",
     "node-unzip-2": "^0.2.8",
